@@ -23,6 +23,7 @@
 <div style="margin-top:20px;">
     <button class="button" onclick="loadMods('Server')">Show Server Mods</button>
     <button class="button" onclick="loadMods('Client')">Show Client Mods</button>
+    <button class="button" onclick="goBack()">Back</button>
 </div>
 
 <pre id="mod-list"></pre>
@@ -57,4 +58,17 @@ function loadMods(type) {
     fetch(GITHUB_RAW_BASE + fileName)
     .then(res => res.text())
     .then(text => {
-        document.getElementById("mod-list").textContent = text || "(
+        document.getElementById("mod-list").textContent = text || "(No mods found)";
+    })
+    .catch(err => {
+        console.error("Failed to load mods:", err);
+        document.getElementById("mod-list").textContent = "(Failed to load mods)";
+    });
+}
+
+function goBack() {
+    window.location.href = "https://fione0.github.io/My-Website/"; // link back to main index page
+}
+</script>
+</body>
+</html>
