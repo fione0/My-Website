@@ -1,1 +1,186 @@
-Currently 0 Mods
+AE_Better_Villagers - 1.15.1.b
+AdvancedLootInfo - 1.21.1-1.2.3
+Amendments - 1.21-1.2.24
+AppleSkin - ${file.jarVersion}
+Applied Energistics 2 - 19.2.13
+Architectury - 13.0.8
+Ars Additions - 1.21.1-21.2.3
+Ars Controle - 1.21.1-1.6.12
+Ars Creo - ${file.jarVersion}
+Ars Elemental - ${file.jarVersion}
+Ars Nouveau - ${file.jarVersion}
+Ars Polymorphia - 1.0.3
+Bad Packets - 0.8.2
+BaguetteLib - 1.0.0
+Balm - 21.0.48
+Better Beds - 1.4.0
+Biomes O' Plenty - 21.1.0.12
+Blur+ - 5.2.2+1.21.1
+Butcher - 3.5.6
+CC: Tweaked - 1.116.1
+Carry On - 2.2.2
+ChoiceTheorem's Overhauled Village - 3.5.9a
+Chunk Loaders - 1.2.8
+Cloth Config v15 API - 15.0.140
+Clumps - 19.0.0.1
+Collective - 8.3
+Continuity - 3.0.0+1.21.neoforge
+Cooking for Blockheads - 21.1.16
+CorgiLib - 5.0.0.7
+Corpse - 1.21.1-1.1.10
+Corpse Curios Compatibility - 3.0.2
+CosmeticArmorReworked - 1.21.1-v1-neoforge
+CosmeticArmours - 1.5.2.1
+Create - 6.0.6
+Create Confectionery - 1.1.2
+Create Crafts & Additions - 1.5.1
+Create Encased - 1.7.2-fix1
+Create Factory Logistics - 1.4.6
+Create Let The Adventure Begin - 2.7.0
+Create Mod Additional Recipes - 1.0.0
+Create More: Linked Remote - 1.0.1
+Create More: Package Couriers - 1.2.0
+Create More: Parallel Pipes - 1.1.1
+Create More: Pipe Bombs in Packages - 1.0.0
+Create Oh The Biomes We ve Gone Compat - ${file.jarVersion}
+Create Photomovement - 0.3.0
+Create Stuff 'N Additions - 2.1.0.
+Create Teleporters - 2.4
+Create: Applied Kinetics - 1.5.2-1.21.1
+Create: Central Kitchen - 2.1.3
+Create: Chromatic Return - 1.0.0
+Create: Connected - 1.1.6-mc1.21.1
+Create: Copycats+ - 3.0.2+mc.1.21.1-neoforge
+Create: Dragons Plus - 1.6.1
+Create: Dreams n' Desires - 2.2a-BETA
+Create: Enchantment Industry - 2.1.7
+Create: Food - 2.0.0-beta-3
+Create: Garnished - 2.1.6.2
+Create: Mechanical spawner - 1.2.4-6.0.6
+Create: Mixed Casing - 1.1.0
+Create: Rustic Structures - 1.0.0
+Create: Structures Arise - 160.33.32
+Create: Trading Floor - 3.0.10
+Create: Trimmed - 1.0.1
+Create: Vibrant Vaults - 0.3.2
+Create_Better_Villagers - 1.3.2
+CreativeCore - 2.13.7
+Curios API - 9.5.1+1.21.1
+Design n' Decor - 2.1.0
+Do a Barrel Roll - 3.7.3
+Domum Ornamentum - ${file.jarVersion}
+Double Doors - 7.1
+End Remastered - 6.0.2
+Ender IO - 7.1.8-alpha
+EnderChests - 1.21.1-0.1
+EnderTanks - 1.21.1-0.1
+Entity Model Features - 2.4.1
+Entity Texture Features - 6.2.9
+Explorer's Compass - 1.21.1-3.0.3-neoforge
+FTB Chunks - 2101.1.9
+FTB Library - 2101.1.14
+FTB Ranks - 2101.1.3
+FTB Teams - 2101.1.2
+FTB Ultimine - 2101.1.3
+Farmer's Cutting: Oh The Biomes We've Gone - 1.21.1-2.1-neoforge
+Farmer's Delight - 1.2.8
+Ferrite Core - 7.0.2
+FirstPerson - 2.5.0
+Forgified Fabric API - ${file.jarVersion}
+Fusion - 1.2.10
+Fzzy Config - 0.7.1+1.21+neoforge
+Gears n' Kinetics - 1.0l
+GeckoLib 4 - 4.7.6
+GlitchCore - 2.1.0.0
+GuideME - 21.1.14
+Immersive Engineering - 12.4.2-194
+Jade - ${file.jarVersion}
+Just Enough Breeding - 1.6.2
+Just Enough Effects Descriptions - 1.21-2.2.19
+Just Enough Immersive Multiblocks - 1.0.4
+Just Enough Items - 19.22.0.315
+Just Enough Professions (JEP) - ${file.jarVersion}
+Just Enough Resources - 1.6.0.17
+KeyBindJS - 2101-1.0.1
+Konkrete - 1.9.9
+KubeJS - 2101.7.1-build.181
+KubeJS EnderIO - 1.21.1-0.7.2
+L_Ender's Cataclysm 1.21.1 - 3.10
+Leaves Be Gone - 21.1.0
+Lithium - 0.15.0+mc1.21.1
+Lithostitched - 1.4.11
+LittleFrames - 1.4.5
+Lootr - 1.21-1.10.35.91
+Macaw's Bridges - 3.1.1
+Macaw's Stairs and Balconies - 1.0.1
+Marketplace Blocks - 1.0.0
+Mechanicals Lib - 1.0.10
+Melody - 1.0.10
+MidnightLib - 1.7.5
+MineColonies - 1.1.997-1.21.1
+Model Gap Fix - 1.21-1.10
+ModernFix - 5.24.3+mc1.21.1
+Money and Sign Shops - 1.0.2
+Moog's End Structures - 1.3.5-1.21
+Moog's Nether Structures - 1.0.8-1.21
+Moonlight Lib - 1.21-2.20.7
+More Culling - 1.0.6
+Mouse Tweaks - 2.26.1
+Mowzie's Mobs - 1.7.5
+Multi-Piston - 1.2.57-1.21.1
+Nature's Compass - 1.21.1-3.0.2-neoforge
+Not Enough Glyphs - ${file.jarVersion}
+Oh The Biomes We've Gone - 2.4.5
+Oh The Trees You'll Grow - 5.0.14
+Patchouli - ${file.jarVersion}
+Polymorph - 1.1.0+1.21.1
+PonderJS - 1.21.1-2.1.3
+Puzzles Lib - 21.1.36
+Reese's Sodium Options - 1.8.3+mc1.21.4
+Refined Storage - 2.0.0-beta.4
+Refined Storage - JEI Integration - 1.0.0
+Rhino - 2101.2.7-build.74
+Searchables - 1.0.2
+Serene Seasons - 10.1.0.3
+ShetiPhianCore - 1.21.1-0.3
+Simple Voice Chat - 1.21.1-2.5.35
+Sophisticated Backpacks - 3.24.18
+Sophisticated Backpacks Create Integration - 0.1.3
+Sophisticated Core - 1.3.58
+Sophisticated Storage - 1.4.46
+Sophisticated Storage Create Integration - 0.1.11
+Storage Delight - 25.06.24-1.21-neoforge
+Storage Drawers - 13.8.9
+Structurize - 1.0.779-1.21.1-snapshot
+SuperMartijn642's Config Library - 1.1.8
+SuperMartijn642's Core Lib - 1.1.18+a
+Supplementaries - 1.21-3.3.5
+Supplementaries Squared - 1.21-1.2.10
+TerraBlender - ${file.jarVersion}
+Terralith - 2.5.8
+Terralith ReStoned - 1.2
+Tidal Towns - 1.3.4
+Tom's Simple Storage Mod - 2.2.2
+Torchmaster - 21.1.5-beta
+Towntalk - 1.2.0
+UI Library Mod - 1.0.205-1.21.1
+Waystones - 21.1.20
+When Dungeons Arise - 2.1.64
+Wildfire's Female Gender Mod - 3.2.2
+WorldEdit - 7.3.8+6939-7d32b45
+YUNG's API - 1.21.1-NeoForge-5.1.6
+YUNG's Better Desert Temples - 1.21.1-NeoForge-4.1.5
+YUNG's Better Dungeons - 1.21.1-NeoForge-5.1.4
+YUNG's Better End Island - 1.21.1-NeoForge-3.1.2
+YUNG's Better Jungle Temples - 1.21.1-NeoForge-3.1.2
+YUNG's Better Mineshafts - 1.21.1-NeoForge-5.1.1
+YUNG's Better Nether Fortresses - 1.21.1-NeoForge-3.1.5
+YUNG's Better Ocean Monuments - 1.21.1-NeoForge-4.1.2
+YUNG's Better Strongholds - 1.21.1-NeoForge-5.1.3
+YUNG's Better Witch Huts - 1.21.1-NeoForge-4.1.1
+YetAnotherConfigLib - 3.7.1+1.21.1-neoforge
+create: things and misc - 1.0.0
+e4mc - 5.4.1
+lionfishapi - 2.6
+spark - 1.10.124
+underground_village - 1.5.4
