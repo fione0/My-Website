@@ -23,6 +23,7 @@
 <div style="margin-top:20px;">
     <button class="button" onclick="loadMods('Server')">Mods on the server</button>
     <button class="button" onclick="loadMods('Client')">Mods that Fox has</button>
+    <button class="button" onclick="downloadPack()">Download Mod Pack</button>
     <button class="button" onclick="goBack()">Back</button>
 </div>
 
@@ -31,7 +32,8 @@
 <script>
 const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/fione0/My-Website/main/Minecraft/";
 
-fetch("https://raw.githubusercontent.com/fione0/My-Website/main/Minecraft/CurrentServerURL.txt")
+// Fetch current server URL
+fetch(GITHUB_RAW_BASE + "CurrentServerURL.txt")
   .then(res => res.text())
   .then(text => {
     let url = text.trim();
@@ -45,6 +47,7 @@ fetch("https://raw.githubusercontent.com/fione0/My-Website/main/Minecraft/Curren
     document.getElementById("server-url").textContent = "Server URL not available";
   });
 
+// Copy server URL to clipboard
 function copyServerURL() {
     const url = document.getElementById("server-url").textContent;
     navigator.clipboard.writeText(url)
@@ -52,6 +55,7 @@ function copyServerURL() {
         .catch(err => alert("Failed to copy: " + err));
 }
 
+// Load mods list
 function loadMods(type) {
     let fileName = type === "Server" ? "ModList-Server.txt" : "ModList-Client.txt";
     fetch(GITHUB_RAW_BASE + fileName)
@@ -65,6 +69,15 @@ function loadMods(type) {
     });
 }
 
+// Download mod pack
+function downloadPack() {
+    // Direct download link from Google Drive
+    const fileId = "1FKRkPaIWHmiaH5eb27lniqhRKWLW8d6b";
+    const downloadUrl = `https://drive.google.com/uc?export=download&id=${fileId}`;
+    window.open(downloadUrl, "_blank");
+}
+
+// Back button
 function goBack() {
     window.location.href = "https://fione0.github.io/My-Website/"; // link back to main index page
 }
