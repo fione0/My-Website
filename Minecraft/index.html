@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minecraft Server Info</title>
+<style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f0f0f0; }
+    .button { margin: 5px; padding: 10px 15px; font-size: 16px; cursor: pointer; }
+    #server-url { font-weight: bold; }
+    #mod-list { margin-top: 15px; white-space: pre-wrap; background: #fff; padding: 10px; border: 1px solid #ccc; max-height: 300px; overflow-y: auto; }
+</style>
+</head>
+<body>
+<h1>Minecraft Server Info</h1>
+
+<div>
+    <span>Server URL: </span>
+    <span id="server-url">Loading...</span>
+    <button class="button" onclick="copyServerURL()">Copy</button>
+</div>
+
+<div style="margin-top:20px;">
+    <button class="button" onclick="loadMods('Server')">Show Server Mods</button>
+    <button class="button" onclick="loadMods('Client')">Show Client Mods</button>
+</div>
+
+<pre id="mod-list"></pre>
+
+<script>
+const GITHUB_RAW_BASE = "https://raw.githubusercontent.com/fione0/My-Website/main/Minecraft/";
+
+// Load server URL on page load
+fetch(GITHUB_RAW_BASE + "CurrentServerURL.txt")
+.then(res => res.text())
+.then(text => {
+    let url = text.trim();
+    if (url.startsWith("tcp://")) {
+        url = url.slice(6); // remove tcp://
+    }
+    document.getElementById("server-url").textContent = url;
+})
+.catch(err => {
+    console.error("Failed to load server URL:", err);
+    document.getElementById("server-url").textContent = "Server Offline, No Link Available";
+});
+
+function copyServerURL() {
+    const url = document.getElementById("server-url").textContent;
+    navigator.clipboard.writeText(url)
+        .then(() => alert("Copied server URL to clipboard!"))
+        .catch(err => alert("Failed to copy: " + err));
+}
+
+function loadMods(type) {
+    let fileName = type === "Server" ? "ModList-Server.txt" : "ModList-Client.txt";
+    fetch(GITHUB_RAW_BASE + fileName)
+    .then(res => res.text())
+    .then(text => {
+        document.getElementById("mod-list").textContent = text || "(
