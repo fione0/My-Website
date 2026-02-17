@@ -18,6 +18,7 @@ Blur+ - 5.2.2+1.21.1
 Butcher - 3.5.6
 CC: Tweaked - 1.116.1
 Carry On - 2.2.2
+ChatPlus - 2.7.0
 ChoiceTheorem's Overhauled Village - 3.5.9a
 Chunk Loaders - 1.2.8
 Cloth Config v15 API - 15.0.140
